@@ -15,7 +15,7 @@ namespace BusTicketPrice
         {
             // Load config file
             this.Config = this.Helper.ReadConfig<ModConfig>();
-            
+
             // Validate config
             if (this.Config.DesertBusTicketPrice < 0)
             {
