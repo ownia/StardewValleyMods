@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Bus Ticket Price",
+  "Author": "ownia",
+  "Version": "1.0.0",
+  "Description": "Customize the bus ticket price.",
+  "UniqueID": "ownia.BusTicketPrice",
+  "EntryDll": "BusTicketPrice.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
