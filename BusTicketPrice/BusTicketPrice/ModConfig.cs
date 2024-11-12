@@ -8,12 +8,12 @@ namespace BusTicketPrice
 
         public ModConfig()
         {
-            this.DesertBusTicketPrice = 2;
+            this.DesertBusTicketPrice = 100;
         }
 
         public bool IsValid()
         {
-            return DesertBusTicketPrice >= 0 && DesertBusTicketPrice <= 999999;
+            return DesertBusTicketPrice >= 0 && DesertBusTicketPrice <= 9999;
         }
     }
 }
